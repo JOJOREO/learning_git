@@ -39,3 +39,8 @@ git commit -m "added new task"
 
 git checkout main //switch back to main branch 
 git merge test //merge the changes we made in the test branch into the main branch 
+
+
+//clear instruction
+
+git reset
