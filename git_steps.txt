@@ -25,3 +25,11 @@ git add .
 git commit -m "added new task"
 git push -u origin main
 
+//create new branch to test on it chages
+
+git checkout -b test //To create a new branch 
+
+//checkout tells Git it is supposed to switch to a new branch.
+//-b tells Git to create a new branch.
+// test is the name of the branch to be created
+
