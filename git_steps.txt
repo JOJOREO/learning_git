@@ -1,5 +1,12 @@
 open cmd in file
 git init
+//adding files
 git add . //adds all files in folder
 git add about.txt //adds specific file in folder
 git status
+//commit files
+git commit -m "first commit" // -m " first commit " is the commit msg
+//push files
+git remote add origin https://github.com/ihechikara/git-and-github-tutorial.git
+git branch -M main
+git push -u origin main
