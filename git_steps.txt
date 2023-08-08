@@ -11,5 +11,17 @@ git commit -m "first commit" // -m " first commit " is the commit msg
 git remote add origin https://github.com/ihechikara/git-and-github-tutorial.git
 //creates a connection between your local repo and the remote repo on Github.
 
+//if wrong origin used
+git remote set-url origin git@github.com:ppreyer/first_app.git 
+
 git branch -M main //changes your main branch's name to "main"
 git push -u origin main //pushes your repo from your local device to GitHub
+
+//after making changes , adding updated file 
+
+//changes made 
+
+git add .
+git commit -m "added new task"
+git push -u origin main
+
