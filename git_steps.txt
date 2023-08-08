@@ -33,3 +33,9 @@ git checkout -b test //To create a new branch
 //-b tells Git to create a new branch.
 // test is the name of the branch to be created
 
+//add , commit file changes 
+git add .
+git commit -m "added new task"
+
+git checkout main //switch back to main branch 
+git merge test //merge the changes we made in the test branch into the main branch 
